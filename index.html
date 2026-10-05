@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanvik LLC | Software &amp; AI Solutions</title>
+  <meta name="description" content="Sanvik LLC – software provider, AI rental solutions, and technology consulting.">
+  <style>
+    :root { --primary:#4f46e5; --dark:#0f172a; --light:#f8fafc; --muted:#64748b; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    html { scroll-behavior:smooth; }
+    body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; color:var(--dark); line-height:1.6; }
+    a { text-decoration:none; color:inherit; }
+    .container { max-width:1100px; margin:0 auto; padding:0 24px; }
+    header { position:sticky; top:0; background:#fff; border-bottom:1px solid #e2e8f0; z-index:10; }
+    nav { display:flex; justify-content:space-between; align-items:center; height:64px; }
+    .logo { display:flex; align-items:center; gap:10px; font-weight:800; font-size:1.3rem; color:var(--primary); }
+    .logo small { font-weight:500; color:var(--muted); font-size:.8em; }
+    nav ul { display:flex; gap:24px; list-style:none; }
+    nav a:hover { color:var(--primary); }
+    .hero { background:linear-gradient(135deg,#312e81,#4f46e5 60%,#7c3aed); color:#fff; text-align:center; padding:110px 0; }
+    .hero h1 { font-size:clamp(2rem,5vw,3.4rem); margin-bottom:16px; }
+    .hero p { max-width:620px; margin:0 auto 32px; opacity:.9; font-size:1.1rem; }
+    .btn { display:inline-block; background:#fff; color:var(--primary); padding:12px 28px; border-radius:8px; font-weight:600; }
+    .btn:hover { transform:translateY(-2px); box-shadow:0 6px 16px rgba(0,0,0,.2); }
+    section { padding:80px 0; }
+    section h2 { text-align:center; font-size:2rem; margin-bottom:12px; }
+    .sub { text-align:center; color:var(--muted); margin-bottom:48px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:24px; }
+    .card { background:#fff; border:1px solid #e2e8f0; border-radius:12px; padding:28px; transition:.2s; }
+    .card:hover { box-shadow:0 10px 24px rgba(79,70,229,.15); transform:translateY(-4px); }
+    .card .icon { font-size:2rem; margin-bottom:12px; }
+    .card h3 { margin-bottom:8px; }
+    .card p { color:var(--muted); font-size:.95rem; }
+    .alt { background:var(--light); }
+    .about p { max-width:720px; margin:0 auto; text-align:center; color:var(--muted); }
+    .contact { text-align:center; }
+    .contact a.mail { color:var(--primary); font-weight:600; }
+    footer { background:var(--dark); color:#94a3b8; text-align:center; padding:28px 0; font-size:.9rem; }
+    @media (max-width:600px) { nav ul { gap:14px; font-size:.9rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <a href="#" class="logo" aria-label="Sanvik LLC home">
+          <svg width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+            <defs>
+              <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#4f46e5"/>
+                <stop offset="1" stop-color="#7c3aed"/>
+              </linearGradient>
+            </defs>
+            <rect width="40" height="40" rx="10" fill="url(#lg)"/>
+            <path d="M27 13.5c-1.5-2-4-3-7-3-4 0-6.5 2-6.5 5 0 7 13 3.500 13 9.500 0 3-2.500 5-6.500 5-3.500 0-6-1.200-7.500-3.500"
+                  fill="none" stroke="#fff" stroke-width="3.500" stroke-linecap="round"/>
+          </svg>
+          <span>Sanvik <small>LLC</small></span>
+        </a>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="container">
+        <h1>Technology That Powers Your Business</h1>
+        <p>Sanvik LLC delivers custom software and flexible AI rental solutions to help companies build, scale, and innovate faster.</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+      </div>
+    </div>
+
+    <section id="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <p class="sub">Everything you need to bring software and AI into your business.</p>
+        <div class="grid">
+          <div class="card"><div class="icon">💻</div><h3>Software Provider</h3><p>Custom web, mobile, and enterprise software built to your requirements.</p></div>
+          <div class="card"><div class="icon">🤖</div><h3>AI Rental Solutions</h3><p>On-demand AI models and compute you can rent by the month, with no heavy upfront cost.</p></div>
+          <div class="card"><div class="icon">☁️</div><h3>Cloud &amp; DevOps</h3><p>Cloud migration, automation, and reliable infrastructure for your applications.</p></div>
+          <div class="card"><div class="icon">📊</div><h3>Data &amp; Analytics</h3><p>Turn your data into insights with dashboards, pipelines, and reporting.</p></div>
+          <div class="card"><div class="icon">🧠</div><h3>AI Consulting</h3><p>Strategy and integration to put AI into real workflows.</p></div>
+          <div class="card"><div class="icon">🛠️</div><h3>Support &amp; Maintenance</h3><p>Ongoing updates, monitoring, and help when you need it.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="alt about">
+      <div class="container">
+        <h2>About Sanvik LLC</h2>
+        <p class="sub">Practical technology, delivered simply.</p>
+        <p>Sanvik LLC is a technology company focused on software development and AI services. We partner with startups and established businesses to deliver reliable solutions that are affordable, scalable, and tailored to their goals.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p class="sub">Let's discuss your next project.</p>
+        <p>Email: <a class="mail" href="mailto:info@sanvikllc.com">info@sanvikllc.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">&copy; 2026 Sanvik LLC. All rights reserved.</div>
+  </footer>
+</body>
+</html>
